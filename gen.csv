@@ -1,0 +1,26 @@
+HEADER,INDEX,NAME,UNIT,DESCRIPTION
+GEN_BUS,1,,,Bus number
+PG,2,Pg,MW,Real power output
+QG,3,Qg,MVAr,Reactive power output
+QMAX,4,Qmax,MVAr,Maximum reactive power output at Pmin
+QMIN,5,Qmin,MVAr,Minimum reactive power output at Pmin
+VG,6,Vg,p.u.,Voltage magnitude setpoint
+MBASE,7,mBase,MVA,Total MVA base of this machine
+GEN_STATUS,8,,,"Status, 1 - machine in service, 0 - machine out of service"
+PMAX,9,Pmax,MW,Maximum real power output
+PMIN,10,Pmin,MW,Minimum real power output
+PC1,11,Pc1,MW,Lower real power output of PQ capability curve
+PC2,12,Pc2,MW,Upper real power output of PQ capability curve
+QC1MIN,13,Qc1min,MVAr,Minimum reactive power output at Pc1
+QC1MAX,14,Qc1max,MVAr,Maximum reactive power output at Pc1
+QC2MIN,15,Qc2min,MVAr,Minimum reactive power output at Pc2
+QC2MAX,16,Qc2max,MVAr,Maximum reactive power output at Pc2
+RAMP_AGC,17,,MW/min,Ramp rate for load following/AGC
+RAMP_10,18,,MW,Ramp rate for 10 minute reserves
+RAMP_30,19,,MW,ramp rate for 30 minute reserves
+RAMP_Q,20,,MVAr/min,Ramp rate for reactive power (2 sec timescale)
+APF,21,,,Area participation factor
+MU_PMAX,22,,u/MW,Kuhn-Tucker multiplier on upper Pg limit
+MU_PMIN,23,,u/MW,Kuhn-Tucker multiplier on lower Pg limit
+MU_QMAX,24,,u/MVAr,Kuhn-Tucker multiplier on upper Qg limit
+MU_QMIN,25,,u/MVAr,Kuhn-Tucker multiplier on lower Qg limit

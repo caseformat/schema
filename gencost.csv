@@ -1,0 +1,6 @@
+HEADER,INDEX,NAME,UNIT,DESCRIPTION
+MODEL,1,,,"Cost model, 1 = piecewise linear, 2 = polynomial"
+STARTUP,2,,US dollars,Startup cost
+SHUTDOWN,3,,US dollars,Shutdown cost
+NCOST,4,,,Number of end/breakpoints in piecewise linear cost function or of coefficients in polynomial cost function
+COST,5,,,Parameters defining total cost function

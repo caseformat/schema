@@ -1,0 +1,4 @@
+HEADER,INDEX,NAME,UNIT,DESCRIPTION
+CASENAME,1,,,Case name
+VERSION,2,,,Case format version
+BASE_MVA,3,baseMVA,MVA,System MVA base

@@ -1,0 +1,18 @@
+HEADER,INDEX,NAME,UNIT,DESCRIPTION
+BUS_I,1,,,Bus number
+BUS_TYPE,2,,,"Bus type (1 - PQ bus, 2 - PV bus, 3 - reference bus, 4 - isolated bus)"
+PD,3,Pd,MW,Real power demand
+QD,4,Qd,MVAr,Reactive power demand
+GS,5,Gs,MW at V = 1.0 p.u.,Shunt conductance
+BS,6,Bs,MVAr at V = 1.0 p.u.,Shunt susceptance
+BUS_AREA,7,,,Area number
+VM,8,Vm,p.u.,Voltage magnitude
+VA,9,Va,degrees,Voltage angle
+BASE_KV,10,baseKV,kV,Base voltage
+ZONE,11;,zone,,Loss zone
+VMAX,12,maxVm,p.u.,Maximum voltage magnitude
+VMIN,13,minVm,p.u.,Minimum voltage magnitude
+LAM_P,14,,u/MW,Lagrange multiplier on real power mismatch
+LAM_Q,15,,u/MVAr,Lagrange multiplier on reactive power mismatch
+MU_VMAX,16,,u/p.u.,Kuhn-Tucker multiplier on upper voltage limit
+MU_VMIN,17,,u/p.u.,Kuhn-Tucker multiplier on lower voltage limit
