@@ -1,24 +1,24 @@
 HEADER,INDEX,NAME,UNIT,DESCRIPTION
-F_BUS,1,f,,From bus number
-T_BUS,2,t,,To bus number
+F_BUS,1,f,,"""from"" bus number"
+T_BUS,2,t,,"""to" bus number"
 BR_STATUS,3,,,"Initial dcline status, 1 - in service, 0 - out of service"
-PF,4,,MW,Flow at "from" bus ("from" -> "to")
-PT,5,,MW,Flow at "to" bus ("from" -> "to")
-QF,6,,MVAr,Injection at "from" bus ("from" -> "to")
-QT,7,,MVAr,Injection at "to" bus ("from" -> "to")
-VF,8,,p.u.,Voltage setpoint at "from" bus
-VT,9,,p.u.,Voltage setpoint at "to" bus
-PMIN,10,,MW,Lower limit on MW flow at "from" end
-PMAX,11,,MW,Upper limit on MW flow at "from" end
-QMINF,12,,MVAr,Lower limit on MVAr injection at "from" bus
-QMAXF,13,,MVAr,Upper limit on MVAr injection at "from" bus
-QMINT,14,,MVAr,Lower limit on MVAr injection at "to" bus
-QMAXT,15,,MVAr,Upper limit on MVAr injection at "to" bus
+PF,4,,MW,"Flow at ""from"" bus (""from"" -> ""to"")"
+PT,5,,MW,"Flow at ""to"" bus (""from"" -> ""to"")"
+QF,6,,MVAr,"Injection at ""from"" bus (""from"" -> ""to"")"
+QT,7,,MVAr,"Injection at ""to"" bus (""from"" -> ""to"")"
+VF,8,,p.u.,"Voltage setpoint at ""from"" bus"
+VT,9,,p.u.,"Voltage setpoint at ""to"" bus"
+PMIN,10,,MW,"Lower limit on MW flow at ""from"" end"
+PMAX,11,,MW,"Upper limit on MW flow at ""from"" end"
+QMINF,12,,MVAr,"Lower limit on MVAr injection at ""from"" bus"
+QMAXF,13,,MVAr,"Upper limit on MVAr injection at ""from"" bus"
+QMINT,14,,MVAr,"Lower limit on MVAr injection at ""to"" bus"
+QMAXT,15,,MVAr,"Upper limit on MVAr injection at ""to"" bus"
 LOSS0,16,,MW,Constant term of linear loss function
 LOSS1,17,,MW,Linear term of linear loss function
-MU_PMIN,18,,u/MW,Kuhn-Tucker multiplier on lower flow lim at "from" bus
-MU_PMAX,19,,u/MW,Kuhn-Tucker multiplier on upper flow lim at "from" bus
-MU_QMINF,20,,u/MVAr,Kuhn-Tucker multiplier on lower VAr lim at "from" bus
-MU_QMAXF,21,,u/MVAr,Kuhn-Tucker multiplier on upper VAr lim at "from" bus
-MU_QMINT,22,,u/MVAr,Kuhn-Tucker multiplier on lower VAr lim at "to" bus
-MU_QMAXT,23,,u/MVAr,Kuhn-Tucker multiplier on upper VAr lim at "to" bus
+MU_PMIN,18,,u/MW,"Kuhn-Tucker multiplier on lower flow lim at ""from"" bus"
+MU_PMAX,19,,u/MW,"Kuhn-Tucker multiplier on upper flow lim at ""from"" bus"
+MU_QMINF,20,,u/MVAr,"Kuhn-Tucker multiplier on lower VAr lim at ""from"" bus"
+MU_QMAXF,21,,u/MVAr,"Kuhn-Tucker multiplier on upper VAr lim at ""from"" bus"
+MU_QMINT,22,,u/MVAr,"Kuhn-Tucker multiplier on lower VAr lim at ""to"" bus"
+MU_QMAXT,23,,u/MVAr,"Kuhn-Tucker multiplier on upper VAr lim at ""to"" bus"
