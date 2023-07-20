@@ -1,6 +1,6 @@
 HEADER,INDEX,NAME,UNIT,DESCRIPTION
 F_BUS,1,f,,"""from"" bus number"
-T_BUS,2,t,,"""to" bus number"
+T_BUS,2,t,,"""to"" bus number"
 BR_STATUS,3,,,"Initial dcline status, 1 - in service, 0 - out of service"
 PF,4,,MW,"Flow at ""from"" bus (""from"" -> ""to"")"
 PT,5,,MW,"Flow at ""to"" bus (""from"" -> ""to"")"
