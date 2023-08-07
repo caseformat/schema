@@ -1,1 +1,3 @@
-CSV files providing metadata for case CSV format.
+CaseCSV Schema
+
+Based on the MATPOWER case file format.
