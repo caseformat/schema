@@ -9,7 +9,7 @@ BUS_AREA,7,,,Area number
 VM,8,Vm,p.u.,Voltage magnitude
 VA,9,Va,degrees,Voltage angle
 BASE_KV,10,baseKV,kV,Base voltage
-ZONE,11;,zone,,Loss zone
+ZONE,11,zone,,Loss zone
 VMAX,12,maxVm,p.u.,Maximum voltage magnitude
 VMIN,13,minVm,p.u.,Minimum voltage magnitude
 LAM_P,14,,u/MW,Lagrange multiplier on real power mismatch
